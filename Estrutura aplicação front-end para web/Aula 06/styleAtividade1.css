@@ -1,0 +1,12 @@
+.cabecalho{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+.tabela{
+    text-align: center;
+    width:50%;
+}
+.linhasPares{
+    background-color: gray;
+}

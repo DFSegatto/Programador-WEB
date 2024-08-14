@@ -1,0 +1,23 @@
+.container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.formulario{
+    border: 1px solid;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+input,textarea{
+    margin: 5px 5px;
+    border-radius: 5px;
+}
+input{
+    width: 150px;
+    height: 20px;
+}
+button{
+    background-color: rgb(42, 165, 114);
+    color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divH3{
+    font-style: italic;
+}
+.divH3,.divH1{
+    text-align: center;
+}
+.ingredientes{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 30%;
+    margin: auto;
+}
+.modoPreparo{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+}
