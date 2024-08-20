@@ -1,0 +1,42 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.conteudoEsquerda{
+    width: 30%;
+    height: 100vh;
+    float: left;
+    background-color: #2B2B29;
+    color: white;
+    border-right: none;
+    padding-left: 9%;
+}
+img{
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.subtitulos{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+.sessaoConteudoInformacao{
+    display: flex;
+    align-items: center;
+}
+.conteudoInformacaoEsquerda{
+    float: left;
+}
+.conteudoInformacaoDireita{
+    margin-left: 30px;
+}
+.conteudoDireita{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    border: 1px solid;
+}
+td,tr{
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
