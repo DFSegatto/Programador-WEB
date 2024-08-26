@@ -14,11 +14,11 @@ img{
     width: 50%;
     border: 2px solid white;
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 2%;
 }
 .subtitulos{
     border-bottom: 2px solid white;
-    padding-bottom: 10px;
+    padding-bottom: 2%;
 }
 .sessaoConteudoInformacao{
     display: flex;
@@ -28,16 +28,22 @@ img{
     float: left;
 }
 .conteudoInformacaoDireita{
-    margin-left: 30px;
+    margin-left: 3%;
 }
 .conteudoDireita{
     width: 58%;
     height: 100vh;
     float: left;
     border: 1px solid;
-    padding-left: 30px;
+    padding-left: 2%;
+    position: relative;
 }
 td,tr{
     padding-bottom: 40px;
-    padding-left: 10px;
+    padding-left: 2%;
+}
+.conteudoDireita i {
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 17px 7px;
 }
