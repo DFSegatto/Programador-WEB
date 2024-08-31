@@ -16,6 +16,9 @@ main{
     color: white;
     padding-left: 2%; 
 }
+.sessaoConteudoInformacao{
+    font-size: 20px ;
+}
 .sessaoConteudoInformacao table td{
     padding-right: 10px;
 }
@@ -28,10 +31,6 @@ img{
 .subtitulos{
     border-bottom: 2px solid white;
     padding-bottom: 2%;
-}
-.sessaoConteudoInformacao{
-    display: flex;
-    align-items: center;
 }
 .conteudoDireita{
     width: 70%;
@@ -68,7 +67,7 @@ td,tr{
     max-width: 90%;
 }
 .conteudoDireitaFormacao li{
-    font-size: 15px;
+    font-size: 17px;
     margin-bottom: 20px;
     font-weight: bold;
 }
