@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("#botao").click(function(){
+                $("#paragrafo").text("Texto alterado");
+            });
+            $("#paragrafo").hover(function(){
+                $(this).css("background-color","red");
+            },function(){
+                $(this).css("background-color","white");
+            });
+        });
+    </script>
+    <title>JQuery</title>
+</head>
+<body>
+    <p id="paragrafo">Parágrafo</p>
+    <button id="botao">Botão</button>
+</body>
+</html>

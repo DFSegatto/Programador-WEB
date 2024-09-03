@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('#btnFadeIn').click(function(){
+                $('#caixa').fadeIn();
+            })
+            $('#btnFadeOut').click(function(){
+                $('#caixa').fadeOut();
+            })
+            $('#btnSlideUp').click(function(){
+                $('#caixa').slideUp();
+            })
+            $('#btnSlideDown').click(function(){
+                $('#caixa').slideDown();
+            })
+        })
+    </script>
+    <style>
+        #caixa{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+    </style>
+    <title>JQuery</title>
+</head>
+<body>
+    <button id="btnFadeIn">FadeIn</button>
+    <button id="btnFadeOut">FadeOut</button>
+    <button id="btnSlideUp">SlideUp</button>
+    <button id="btnSlideDown">SlideDown</button>
+    <div id="caixa"></div>
+</body>
+</html>
