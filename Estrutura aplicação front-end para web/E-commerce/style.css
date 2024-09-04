@@ -1,0 +1,26 @@
+header section{
+    display: flex;
+    justify-content: center;
+    border: 3px solid red;
+}
+.navbar{
+    margin-top: 60px;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    padding: 0;
+    padding: 20px;
+    background-color: #fff;
+    border-image: linear-gradient(to right, transparent, red, transparent) 1;
+    border-image-slice: 1;
+
+    & button{
+    border: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    }
+
+    & button:hover{
+        background-color: rgba(18, 103, 251, 0.61);
+    }
+}
