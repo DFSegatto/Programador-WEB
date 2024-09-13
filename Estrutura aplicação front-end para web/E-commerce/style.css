@@ -5,9 +5,18 @@ figure img{
     max-width: 60px;
     max-height: 60px;
 }
-header .sectionHeader{
+.sectionHeaderNavBar{
     display: flex;
     justify-content: center;
+}
+.sectionHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-group {
+    display: flex;
+    gap: 10px;
 }
 .navbar{
     border-bottom: 2px solid transparent;
@@ -16,6 +25,7 @@ header .sectionHeader{
     background-color: black;
     border-image: linear-gradient(to right, transparent, white, transparent) 1;
     border-image-slice: 1;
+    margin: 10px 0 30px 0;
 }
 .navbar button{
     border: none;
@@ -42,22 +52,35 @@ header .sectionHeader{
     font-weight: bold;
 }
 .sectionProdutosMaisVendidos{
-    margin: 0 150px;
+    margin: 0 5%;
+    text-align: center;
+}
+#produtosMaisVendidosTitulo{
+    margin-bottom: 50px;
+}
+.sectionProdutosMaisVendidos h1{
+    color: white;
 }
 .sectionProdutosMaisVendidos h6{
     text-decoration: line-through;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.938);
 }
 .card-body {
     display: flex;
     flex-direction: column;
 }
-
-.card-text {
-    margin-top: auto; /* Garante que o conteúdo do texto "empurre" o resto para baixo */
+.divProdutosMaisVendidosPreco {
+    margin-top: auto;
 }
-
 footer{
     color: white;
     text-align: center;
-    padding: 20px;
+    margin-top: 5%;
 }
+.footerFormasPagamento,.footerCopyright{
+    border-top: 1px solid white;
+}
+
+/*Media queries*/
