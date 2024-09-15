@@ -83,4 +83,8 @@ footer{
     border-top: 1px solid white;
 }
 
-/*Media queries*/
+/*PÁGINA EM CONSTRUCAO*/
+
+.bodyPaginaEmConstrucao{
+    background-image: url('img/imgPaginaEmContrucao.jpg');
+}
