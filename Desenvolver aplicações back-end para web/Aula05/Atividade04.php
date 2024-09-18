@@ -4,7 +4,7 @@
     }
     function areaCirculo($raio){
         define("PI", 3.1415);
-        return "Área do circulo com raio ".$raio." é: ".(PI * ($raio * $raio));
+        return "Área do circulo com raio ".$raio." é: ".(PI * (pow($raio,2)));
     }
     function areaTriangulo($base, $altura){
         return "Área do triângulo com base ".$base." e altura ".$altura." é: ".(($base * $altura)/2);
