@@ -5,5 +5,5 @@
     function fahrenheitParaCelsius($fahrenheit){
         return ($fahrenheit - 32) * 5/9;
     }
-    echo "Celsius: ".celsiusParaFahrenheit(10)."<br> Fahrenheit: ".fahrenheitParaCelsius(10);
+    echo "Celsius para Fahrenheit: ".celsiusParaFahrenheit(10)."<br> Fahrenheit para Celsius: ".fahrenheitParaCelsius(10);
 ?>
