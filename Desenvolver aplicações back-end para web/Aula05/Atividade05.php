@@ -12,7 +12,7 @@
                 }
             }
         }
-        return "Quantidade de vogais na fase '".$fraseOriginal."': ".$contadorVogais;
+        return "Quantidade de vogais na frase '".$fraseOriginal."': ".$contadorVogais;
     }
     echo contarVogais("Teste de vogais: AEIOU");
 ?>
